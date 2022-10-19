@@ -1,7 +1,6 @@
 <template>
   <main>
-    <Hero />
-
+    <HeroStartpage />
     <section class="container mx-auto max-w-4xl py-16">
       <h2 class="title">Architektur Exkursionen</h2>
       <h3 class="subtitle">in Vorarlberg und International</h3>
@@ -9,9 +8,8 @@
         architektur INFORM ist seit 1998 auf die Organisation und Durchführung von Exkursionen, Führungen, Touren und Reisen zu zeitgenössischer Architektur in Vorarlberg, Österreich und seit dem Jahre 2003 auch weltweit spezialisiert.
       </p>
     </section>
-
     <section class="container px-5 pb-24 mx-auto">
-      <h3>Programm</h3>
+      <h3>Geplante Touren</h3>
       <TripList />
     </section>
 

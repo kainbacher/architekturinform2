@@ -7,10 +7,10 @@
       <nav
         class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center "
       >
-        <nuxt-link to="/reisen" class="mr-5 hover:text-gray-900">Reisen</nuxt-link>
-        <nuxt-link to="/berichte" class="mr-5 hover:text-gray-900">Berichte</nuxt-link>
+        <nuxt-link to="/reisen" class="mr-5 hover:text-gray-900">Reisen & Exkursionen</nuxt-link>
         <nuxt-link to="/individuelle-touren" class="mr-5 hover:text-gray-900">Individuelle Touren</nuxt-link>
-        <nuxt-link to="/infos" class="mr-5 hover:text-gray-900">Infos</nuxt-link>
+        <nuxt-link to="/berichte" class="mr-5 hover:text-gray-900">Reiseberichte</nuxt-link>
+        <nuxt-link to="/infos" class="mr-5 hover:text-gray-900">architektur INFORM</nuxt-link>
         <nuxt-link to="/kontakt" class="mr-5 hover:text-gray-900">Kontakt</nuxt-link>
       </nav>
       <ButtonInquiry />

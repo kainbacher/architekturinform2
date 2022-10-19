@@ -3,7 +3,7 @@
     <div
       class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col"
     >
-      <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+      <div class="w-40 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
         <nuxt-link to="/" class="">
           <Logo />
         </nuxt-link>
@@ -12,54 +12,39 @@
         class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center"
       >
         <div class="lg:w-1/3 md:w-1/2 w-full px-4">
-          <h2
-            class="title-font font-medium text-gray-900 uppercase tracking-widest text-sm mb-3"
-          >
-            Kontakt
-          </h2>
           <p class="mb-10">
             Schillerstraße 28a<br />
             6850 Dornbirn / Österreich<br />
             <br />
-            <a href="tel:+436642301643">+43 664 2301643</a><br />
-            <a href="mailto:office@architekturinform.com" title="E-Mail an architekturINFORM">office@architekturinform.com</a>
+            <a href="tel:+436642301643" class="hover:text-gray-900">+43 664 2301643</a><br />
+            <a href="mailto:office@architekturinform.com" title="E-Mail an architekturINFORM" class="hover:text-gray-900">office@architekturinform.com</a>
           </p>
         </div>
         <div class="lg:w-1/3 md:w-1/2 w-full px-4">
-          <h2
-            class="title-font font-medium uppercase text-gray-900 tracking-widest text-sm mb-3"
-          >
-            Navigation
-          </h2>
           <nav class="list-none mb-10">
             <li>
-              <nuxt-link to="/" class="text-gray-600 hover:text-gray-800">Aktuell</nuxt-link>
+              <nuxt-link to="/" class="text-gray-600 hover:text-gray-900">Startseite</nuxt-link>
             </li>
             <li>
-              <nuxt-link to="/reisen" class="text-gray-600 hover:text-gray-800">Reisen</nuxt-link>
+              <nuxt-link to="/reisen" class="text-gray-600 hover:text-gray-900">Reisen & Exkursionen</nuxt-link>
             </li>
             <li>
-              <nuxt-link to="/beriechte" class="text-gray-600 hover:text-gray-800">Berichte</nuxt-link>
+              <nuxt-link to="/beriechte" class="text-gray-600 hover:text-gray-900">Reiseberichte</nuxt-link>
             </li>
             <li>
-              <nuxt-link to="/infos" class="text-gray-600 hover:text-gray-800">Infos</nuxt-link>
+              <nuxt-link to="/infos" class="text-gray-600 hover:text-gray-900">architektur INFORM</nuxt-link>
             </li>
             <li>
-              <nuxt-link to="/kontakt" class="text-gray-600 hover:text-gray-800">Kontakt</nuxt-link>
+              <nuxt-link to="/kontakt" class="text-gray-600 hover:text-gray-900">Kontakt</nuxt-link>
             </li>
           </nav>
         </div>
         <div class="lg:w-1/3 md:w-1/2 w-full px-4">
-          <h2
-            class="title-font font-medium uppercase text-gray-900 tracking-widest text-sm mb-3"
-          >
-            Navigation
-          </h2>
           <nav class="list-none mb-10">
             <li>
               <nuxt-link
                 to="/kontakt"
-                class="text-gray-600 hover:text-gray-800"
+                class="text-gray-600 hover:text-gray-900"
                 title="Kontakt"
                 >Kontakt</nuxt-link
               >
@@ -67,7 +52,7 @@
             <li>
               <nuxt-link
                 to="/impressum"
-                class="text-gray-600 hover:text-gray-800"
+                class="text-gray-600 hover:text-gray-900"
                 title="Impressum"
                 >Impressum</nuxt-link
               >
@@ -75,9 +60,18 @@
             <li>
               <nuxt-link
                 to="/datenschutz"
-                class="text-gray-600 hover:text-gray-800"
+                class="text-gray-600 hover:text-gray-900"
                 title="Datenschutz"
                 >Datenschutz</nuxt-link
+              >
+            </li>
+            <li>&nbsp;</li>
+            <li>
+              <nuxt-link
+                to="/kontakt"
+                class="text-gray-600 hover:text-gray-900"
+                title="Newsletter Anmeldung"
+                >Newsletter Anmeldung</nuxt-link
               >
             </li>
           </nav>
@@ -87,7 +81,7 @@
     <div class="bg-gray-100">
       <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
         <p class="text-gray-500 text-sm text-center sm:text-left">
-          © 2020 architekturINFORM
+          © 2020 architektur INFORM
         </p>
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
           <a class="text-gray-500">

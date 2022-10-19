@@ -6,7 +6,7 @@
       >
         <!-- image - start -->
         <img
-          src="https://www.architekturinform.com/media/filer_public_thumbnails/filer_public/9c/9b/9c9bcd9c-af99-4dfc-ad6b-98fcd0bb3a31/a_nyc_3_brooklyn_view.jpg__616x347_q95_crop-False_upscale-True.jpg"
+          src="https://www.architekturinform.com/media/filer_public_thumbnails/filer_public/7b/d8/7bd85683-ad49-4b6c-bc65-62bcfb27bdba/285.jpg__800x600_q95_crop-False.jpg"
           loading="lazy"
           alt="architekturINFORM"
           class="w-full h-full object-cover object-center absolute inset-0 my-0"
@@ -25,20 +25,20 @@
           <h1
             class="text-white text-4xl sm:text-5xl md:text-6xl font-bold text-center mb-8 md:mb-12"
           >
-            Regionale und internationale Architekturreisen
+            Regionale und internationale Exkursionen und Architekturreisen
           </h1>
 
           <div class="w-full flex flex-col sm:flex-row sm:justify-center gap-4">
             <nuxt-link
               to="/reisen"
-              class="inline-block bg-gray-200 hover:bg-gray-300 focus-visible:ring ring-indigo-300 text-gray-500 active:text-gray-700 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3"
+              class="inline-block hover:bg-gray-900 focus-visible:ring ring-white text-white border border-white active:text-gray-700 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3"
             >
-              Reiseübersicht
+              Reisen & Exkursionen
             </nuxt-link>
 
             <nuxt-link
-              to="/infos"
-              class="inline-block bg-gray-200 hover:bg-gray-300 focus-visible:ring ring-indigo-300 text-gray-500 active:text-gray-700 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3"
+              to="/individuelle-touren"
+              class="inline-block hover:bg-gray-900 focus-visible:ring ring-white text-white border border-white active:text-gray-700 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3"
             >
               Individuelle Touren
             </nuxt-link>

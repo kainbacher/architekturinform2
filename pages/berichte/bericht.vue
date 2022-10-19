@@ -60,23 +60,13 @@
               dem Programm.
             </p>
 
-            <div class="flex items-center mx-auto border-t pb-10 mb-10 border-gray-200 sm:flex-row flex-col mt-24 pt-16">
-              <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                </svg>
-              </div>
-              <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-                <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Max Mustermann</h2>
-                <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-                <a href="https://www.orf.at" target="_blank" class="mt-3 text-gray-900 inline-flex items-center">
-                  Architekturbüro XXY
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
-              </div>
-            </div>
+            <PersonStatement
+              name="Prof. Dr. Peter Cachola Schmal"
+              image="https://www.architekturinform.com/media/filer_public_thumbnails/filer_public/b2/c6/b2c6d6d5-c4fc-4da3-88bc-b260a119b35b/brigitte-01.jpg__692x392_q95_crop-False_upscale-True.jpg"
+              description="Peter Cachola Schmal ist Professor für Architekturtheorie"
+              company="ETH Zürich"
+              link="https://www.architektur.ethz.ch/de/fakultaet/personen/professoren/cachola-schmal.html"
+            />
 
           </div>
         </div>

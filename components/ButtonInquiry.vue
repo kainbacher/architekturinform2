@@ -1,9 +1,11 @@
 <template>
   <a
-    href="mailto:office@architekturinform.com"
-    class="inline-flex items-center bg-gray-900 text-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-800 hover:text-gray-100 rounded text-base"
+    :href="link"
+    :title="text"
+    :target="target"
+    class="inline-flex items-center bg-gray-900 text-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 hover:text-gray-100 rounded text-base"
   >
-    Anfrage
+    {{ text }}
     <svg
       fill="none"
       stroke="currentColor"
@@ -17,3 +19,23 @@
     </svg>
   </a>
 </template>
+
+<script>
+export default {
+  name: "ButtonInquiry",
+  props: {
+    text: {
+      type: String,
+      default: "Anfrage",
+    },
+    link: {
+      type: String,
+      default: "mailto:office@architekturinform.com",
+    },
+    target: {
+      type: String,
+      default: "_self",
+    },
+  },
+};
+</script>

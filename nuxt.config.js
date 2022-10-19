@@ -88,6 +88,7 @@ export default {
    */
   modules: [
     '@nuxt/content',
+    '@nuxtjs/sitemap',
   ],
   /*
    ** Build configuration
